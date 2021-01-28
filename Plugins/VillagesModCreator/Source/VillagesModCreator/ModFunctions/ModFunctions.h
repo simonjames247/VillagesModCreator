@@ -18,4 +18,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "ModHelper")
 		static void CXT_CreateProc(FString ExecutablePath, FString Parameter);
+
+	UFUNCTION(BlueprintCallable, Category = "ModHelper")
+		static void CXT_SaveStringToTextFile(FString StringToSave, FString FilePath);
 };
